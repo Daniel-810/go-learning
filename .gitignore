@@ -1,0 +1,39 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# Test / coverage
+*.test
+*.out
+coverage.*
+*.prof
+
+# Go workspace (local only)
+go.work
+go.work.sum
+
+# Secrets / cluster credentials
+.env
+.env.*
+*.pem
+*.key
+kubeconfig
+*.kubeconfig
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Claude Code markdown files
+CLAUDE.md
